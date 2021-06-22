@@ -8,7 +8,7 @@ import "github.com/spf13/viper"
 type Config struct {
 	// General Config
 	APPName string `mapstructure:"APP_NAME"`
-
+	APPPort string `mapstructure:"APP_PORT"`
 	// Database Config
 	DBLog          bool   `mapstructure:"DB_LOG"`
 	DBHost         string `mapstructure:"DB_HOST"`
